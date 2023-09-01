@@ -1,0 +1,15 @@
+version: '3.6'
+services:
+  squid:
+    image: 'squid:5.9'
+    restart: always
+    hostname: 'docker-squid'
+    container_name: 'docker-squid'
+    privileged: true
+    ports:
+      - '3128:3128'
+    volumes:
+      - /root/containers/squid/config/:/etc/squid
+      - /root/containers/squid/cache:/var/cache/squid
+      - /root/containers/squid/logs:/var/log/squid/
+      - /etc/localtime:/etc/localtime
