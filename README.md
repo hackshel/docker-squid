@@ -8,13 +8,13 @@
 You can pull the image.
 
 ```bash
-   docker pull hackshel/squid:5.9
+   docker pull hackseal/squid:5.9
 ```
 
 Alternatively you can build the image yourself.
 
 ```bash
-  docker build -t hackshel/squid:5.9  github.com/hackshel/docker-squid
+  docker build -t hackseal/squid:5.9  github.com/hackseal/docker-squid
 ```
 
 
