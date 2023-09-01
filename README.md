@@ -8,7 +8,7 @@
 You can pull the image.
 
 ```bash
-   docker pull hackseal/squid:5.9
+   docker pull hackseal/squid:latest
 ```
 
 Alternatively you can build the image yourself.
